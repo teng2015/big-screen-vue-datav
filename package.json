@@ -1,0 +1,62 @@
+{
+  "name": "big-screen-vue-datav",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@jiaminghi/data-view": "^2.10.0",
+    "@types/echarts": "^4.4.3",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.4",
+    "echarts": "^4.6.0",
+    "element-ui": "^2.15.1",
+    "video.js": "^7.11.4",
+    "vue": "^2.6.11",
+    "vue-awesome": "^4.0.2",
+    "vue-axios": "^3.2.4",
+    "vue-count-to": "^1.0.13",
+    "vue-resource": "^1.5.2",
+    "vue-router": "^3.1.5",
+    "vue-video-player": "^5.0.2",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "@vue/cli-plugin-babel": "^4.2.0",
+    "@vue/cli-plugin-eslint": "^4.2.0",
+    "@vue/cli-service": "^4.2.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.2.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "sass": "^1.25.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.0.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
